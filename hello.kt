@@ -1,8 +1,7 @@
 fun main(args: Array<String>) {
     println("Hello, World!")
 
-val cyphertext="WKH HDVLHVW PHWKRG RI HQFLSKHULQJ D WHAW PHVVDJH LV WR UHSODFH HDFK FKDUDFWHU EB DQRWKHU XVLQJ D ILAHG UXOH, VR IRU HADPSOH HYHUB OHWWHU D PDB EH UHSODFHG EB G, DQG HYHUB OHWWHU E EB WKH OHWWHU H DQG VR RQ.";
-val alphabet="abcdefghijklmnopqrstuvwxyz";
+  val cyphertext="WKH HDVLHVW PHWKRG RI HQFLSKHULQJ D WHAW PHVVDJH LV WR UHSODFH HDFK FKDUDFWHU EB DQRWKHU XVLQJ D ILAHG UXOH, VR IRU HADPSOH HYHUB OHWWHU D PDB EH UHSODFHG EB G, DQG HYHUB OHWWHU E EB WKH OHWWHU H DQG VR RQ.";
 
   print("\nThe cypher challenge text is :\n");
 
@@ -21,6 +20,7 @@ val alphabet="abcdefghijklmnopqrstuvwxyz";
       // trying these ones
       if (c == 'D') print("a"); else
       if (c == 'V') print("s"); else
+      if (c == 'L') print("i"); else
 
       // display the letter we don't know yet
       print(c);
