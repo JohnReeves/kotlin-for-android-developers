@@ -5,6 +5,9 @@ echo '+------------------+'
 date +'%d/%m/%Y %H:%M:%S'
 echo '+------------------+'
 echo
+# tutorials & documentation:
+# https://kotlinlang.org/docs/tutorials/command-line.html
+# https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/
 
 # kotlinc hello.kt -include-runtime -d hello.jar
 # including any other javac flags you like
@@ -22,5 +25,4 @@ echo '+------------------+'
 
 kotlinc hello.kt -include-runtime -d hello.jar
 
-# gcc "$intro/"hello.c -o ./Results/hello
-#./Results/gcd
+java -jar hello.jar
