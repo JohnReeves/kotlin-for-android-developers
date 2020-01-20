@@ -31,3 +31,6 @@ echo
 # kotlinc hello.kt -include-runtime -d hello.jar
 
 java -jar hello.jar
+
+kotlinc post.kt -include-runtime -d post.jar
+java -jar post.jar
