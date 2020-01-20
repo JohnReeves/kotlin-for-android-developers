@@ -22,6 +22,11 @@ echo "hello.kt"
 echo '+------------------+'
 echo "binaries in ./Results"
 echo '+------------------+'
+echo
+
+# https://play.kotlinlang.org/koans/overview
+# https://kotlinlang.org/docs/tutorials/command-line.html
+# https://kotlinlang.org/docs/tutorials/coroutines/async-programming.html
 
 # kotlinc hello.kt -include-runtime -d hello.jar
 
