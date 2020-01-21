@@ -27,8 +27,9 @@ echo
 # https://play.kotlinlang.org/koans/overview
 # https://kotlinlang.org/docs/tutorials/command-line.html
 # https://kotlinlang.org/docs/tutorials/coroutines/async-programming.html
+# https://www.programiz.com/kotlin-programming/examples/fibonacci-series
 
-kotlinc hello.kt -include-runtime -d hello.jar
+#kotlinc hello.kt -include-runtime -d hello.jar
 java -jar hello.jar
 
 #kotlinc post.kt -include-runtime -d post.jar
