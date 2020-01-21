@@ -28,9 +28,8 @@ echo
 # https://kotlinlang.org/docs/tutorials/command-line.html
 # https://kotlinlang.org/docs/tutorials/coroutines/async-programming.html
 
-# kotlinc hello.kt -include-runtime -d hello.jar
-
+kotlinc hello.kt -include-runtime -d hello.jar
 java -jar hello.jar
 
-kotlinc post.kt -include-runtime -d post.jar
-java -jar post.jar
+#kotlinc post.kt -include-runtime -d post.jar
+#java -jar post.jar

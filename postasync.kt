@@ -1,4 +1,4 @@
-# kotlinc hello.kt -include-runtime -d hello.jar
+// kotlinc hello.kt -include-runtime -d hello.jar
 
 
 fun postItem(item: Item) {
