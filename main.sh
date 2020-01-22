@@ -34,3 +34,6 @@ java -jar hello.jar
 
 #kotlinc post.kt -include-runtime -d post.jar
 #java -jar post.jar
+
+kotlinc generic.kt -include-runtime -d generic.jar
+java -jar generic.jar
