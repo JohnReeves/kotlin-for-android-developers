@@ -17,7 +17,9 @@ class MutableStack<E>(vararg items: E) {              // 1
 
 fun <E> mutableStackOf(vararg elements: E) = MutableStack(*elements)
 
-fun main() {
+fun main(args: Array<String>) {
+    println("Hello, World!")
+
   val stack = mutableStackOf(0.62, 3.14, 2.7)
   println(stack)
 }
