@@ -6,6 +6,7 @@
 // kotlinc post.kt -include-runtime -d post.jar
 // java -jar post.jar
 
+// https://play.kotlinlang.org/byExample/01_introduction/07_Inheritance
 // traditional object-oriented inheritance
 
 open class Dog { 
@@ -50,3 +51,4 @@ fun main() {
     val lion: Lion = Asiatic("Rufo")
     lion.sayHello()
 }
+
