@@ -6,6 +6,8 @@
 // kotlinc post.kt -include-runtime -d post.jar
 // java -jar post.jar
 
+// traditional object-oriented inheritance
+
 open class Dog { 
     open fun sayHello() {
         println("wow wow!")
@@ -18,7 +20,21 @@ class Yorkshire : Dog() {
     }
 }
 
+// Inheritance with Parameterized Constructor
+
+open class Tiger(val origin: String) {
+    fun sayHello() {
+        println("A tiger from $origin says: grrhhh!")
+    }
+}
+
+class SiberianTiger : Tiger("Siberia")
+
 fun main() {
     val dog: Dog = Yorkshire()
     dog.sayHello()
+
+    val tiger: Tiger = SiberianTiger()
+    tiger.sayHello()
+
 }
