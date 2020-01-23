@@ -30,6 +30,16 @@ open class Tiger(val origin: String) {
 
 class SiberianTiger : Tiger("Siberia")
 
+// Passing Constructor Arguments to Superclass
+
+open class Lion(val name: String, val origin: String) {
+    fun sayHello() {
+        println("$name, the lion from $origin says: graoh!")
+    }
+}
+
+class Asiatic(name: String) : Lion(name = name, origin = "India")
+
 fun main() {
     val dog: Dog = Yorkshire()
     dog.sayHello()
@@ -37,4 +47,6 @@ fun main() {
     val tiger: Tiger = SiberianTiger()
     tiger.sayHello()
 
+    val lion: Lion = Asiatic("Rufo")
+    lion.sayHello()
 }
